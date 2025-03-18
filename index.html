@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NASA Images with Glow Effect</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        img {
+            border: 5px solid white;
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.7); /* Green glow */
+            margin: 20px;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        img:hover {
+            box-shadow: 0 0 30px rgba(0, 255, 0, 1); /* Glow effect on hover */
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Can you see me?</h1>
-    <h1 style="text-align: center;">Can you see me now?</h1>
+    <h1>NASA Images with Glow Effect</h1>
+
+    <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/1-14-22_hubble_hero.jpg" alt="NASA Hubble Image" width="600">
+    <p>Hubble Space Telescope Image</p>
+
+    <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/PIA25681_Flag_Front.jpg" alt="NASA Mars Image" width="600">
+    <p>Mars Perseverance Rover</p>
+
+    <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/pia25681-systems.jpg" alt="NASA Space Image" width="600">
+    <p>NASA Space Systems</p>
+
 </body>
 </html>
